@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="file:///C|/Users/kumar/Desktop/jquery-1.11.3.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var arr = [
+   'one',
+   'two',
+   'three',
+   'four',
+   'five'
+];
+$.each(arr, function (index, value) {
+ // alert(index + value);
+  
+   
+});
+
+/*-------  */
+var myfeed = [
+  {
+      "story": "Niraj Kumar shared a link.",
+      "created_time": "2017-05-15T03:59:49+0000",
+      "id": "1107520125965346_1668828176501202"
+    },
+    {
+      "story": "Niraj Kumar shared Rohit Sardana Fans Club's photo.",
+      "created_time": "2017-04-17T15:20:36+0000",
+      "id": "1107520125965346_1643728189011201"
+    },
+    {
+      "story": "Niraj Kumar shared President of India's live video.",
+      "created_time": "2017-03-19T10:08:14+0000",
+      "id": "1107520125965346_1615067931877227"
+    },
+    {
+      "story": "Niraj Kumar shared Amitabh Ojha's post.",
+      "created_time": "2017-02-10T12:57:18+0000",
+      "id": "1107520125965346_1575145089202845"
+    },
+    {
+      "message": "Happy rose day all dear friend",
+      "story": "Jitendra Kumar with Mukul Kumar and 46 others.",
+      "created_time": "2017-02-07T03:36:29+0000",
+      "id": "1107520125965346_1572077632842924"
+    },
+    {
+      "message": "When u find a DREAM inside ur HEART…  don’t ever let it go…  Coz dreams r the tiny seeds frm which beautiful 2morrow grows. Happy Vasant Panchami & Saraswati Puja",
+      "story": "Aditya Vashu with Chandan Mehta and 18 others.",
+      "created_time": "2017-02-01T00:56:49+0000",
+      "id": "1107520125965346_1565071040210250"
+    },
+    {
+      "message": "Aap aur aapki family, Wish you a happy and cheerful MAKAR SANKRANTI !!!!!",
+      "story": "Aditya Vashu with Anurudh Kumar and 21 others.",
+      "created_time": "2017-01-14T02:21:26+0000",
+      "id": "1107520125965346_1546987982018556"
+    },
+    {
+      "story": "Niraj Kumar shared Harsh Sharma's photo.",
+      "created_time": "2017-01-05T19:05:36+0000",
+      "id": "1107520125965346_1539802872737067"
+    },
+    {
+      "message": "happy New year 2017 dear frindends & family",
+      "story": "Jitendra Kumar with Rajeev Raj and 5 others at Sree Siddaganga Math.",
+      "created_time": "2017-01-01T03:23:55+0000",
+      "id": "1107520125965346_1535817973135557"
+    },
+    {
+      "story": "Jitendra Kumar shared a post — with Mukul Kumar and 19 others at Sree Siddaganga Math.",
+      "created_time": "2016-12-20T03:57:10+0000",
+      "id": "1107520125965346_1522733854443969"
+    },
+    {
+      "story": "Sujeet Kumar Subu was with Niraj Kumar.",
+      "created_time": "2016-12-12T03:06:32+0000",
+      "id": "1107520125965346_1511773382206683"
+    },
+    {
+      "message": "Best wishes on this wonderful journey, as you build your new lives together.......",
+      "story": "Pintu Kumar with Vikash Kumar and 28 others in Bihar Sharif.",
+      "created_time": "2016-12-03T08:54:01+0000",
+      "id": "1107520125965346_1499453396772015"
+    },
+    {
+      "story": "Aditya Vashu added a new photo — with Chandan Mehta and 15 others.",
+      "created_time": "2016-11-21T06:38:44+0000",
+      "id": "1107520125965346_1486063048111050"
+    },
+    {
+      "story": "Kamlesh Kumar added 9 new photos — with Dhiraj Kumar and 48 others.",
+      "created_time": "2016-11-20T16:19:58+0000",
+      "id": "1107520125965346_1485492238168131"
+    },
+    {
+      "story": "Kamlesh Kumar added 11 new photos — with Dhiraj Kumar and 48 others.",
+      "created_time": "2016-11-09T10:51:51+0000",
+      "id": "1107520125965346_1474489825935039"
+    },
+    {
+      "story": "Vicky Verma wrote on your Timeline.",
+      "created_time": "2016-11-04T05:11:09+0000",
+      "id": "1107520125965346_1469688106415211"
+    },
+    {
+      "message": "*A festival full of sweet childhood memories full of fireworks, mouth full of sweets, house full of diyas and heart full of joy. Wishing you and your family a very Happy Diwali.*",       "story": "Jitendra Kumar added 2 new photos — with Sumit Mehta and 16 others.",      "created_time": "2016-10-30T05:38:13+0000",
+      "id": "1107520125965346_1465046370212718"
+    },
+    {
+      "message": "Happy Diwali",
+      "story": "Anurudh Kumar added 6 new photos — with Aditya Vashu and 31 others in Bihar Sharif.",
+      "created_time": "2016-10-29T12:07:27+0000",
+
+      "id": "1107520125965346_1464311876952834"
+    },
+    {
+      "story": "Anurudh Kumar with Archna Kumari and 43 others in Bihar Sharif.",
+      "created_time": "2016-10-25T09:15:00+0000",
+      "id": "1107520125965346_1460634640653891"
+    },
+    {
+      "message": "Anuj Kumar",
+      "story": "Anuj Kumar added a new photo — with Sanjeet Kumar and 3 others.",
+      "created_time": "2016-10-21T10:53:46+0000",
+      "id": "1107520125965346_1457045461012809"
+    },
+    {
+      "story": "Jitendra Kumar added 2 new photos — with Mukul Kumar and 26 others.",
+      "created_time": "2016-10-18T04:57:17+0000",
+      "id": "1107520125965346_1453920834658605"
+    },
+    {
+      "story": "Kamlesh Kumar added 3 new photos — with Dhiraj Kumar and 41 others.",
+      "created_time": "2016-10-17T11:02:23+0000",
+      "id": "1107520125965346_1452968914753797"
+    },
+    {
+      "message": "Wrestling with sumo me and my friend",
+      "story": "Jitendra Kumar with Mukul Kumar and 11 others.",
+      "created_time": "2016-10-10T10:11:04+0000",
+      "id": "1107520125965346_1446129185437770"
+    },
+    {
+      "message": "Badi pahari Bihar sharif",
+      "story": "Anurudh Kumar added 3 new photos — with Rajeev Raj and 22 others in Bihar Sharif.",
+      "created_time": "2016-10-09T23:49:05+0000",
+      "id": "1107520125965346_1445801225470566"
+    },
+    {
+      "story": "Deepak Gupta added a new photo — with Jitendra Prakash Rana and 2 others.",
+      "created_time": "2016-09-20T12:08:50+0000",
+      "id": "1107520125965346_1427240620659960"
+    }
+  ] ;
+
+$.each(myfeed, function(i, el){
+	$('#niraj').append('<tr><td>' + el.id + '</td>   <td> ' + el.story+ ' </td> <td> ' + el.message+ ' </td><td>'+ el.created_time +'</td> </tr>' );
+	
+	});
+ 
+ 
+});
+</script>
+</head>
+
+<body>
+ <table width="80%" align="center" border="1" id="" cellpadding="0" cellspacing="0">
+ 
+ 
+ </table>
+<table width="80%" align="center" border="1" cellpadding="0" id="niraj" cellspacing="0">
+ <tr><th> id</th><th>Story </th><th>message</th>  <th>Created Time</th> </tr>
+
+ </table>
+
+
+</body>
+</html>
